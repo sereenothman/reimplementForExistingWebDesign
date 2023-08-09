@@ -1,0 +1,200 @@
+/* .btn-warning {
+    
+     --bs-btn-hover-color: #fff;
+     --bs-btn-hover-bg: #f0f;
+     --bs-btn-hover-border-color: #f0f;
+
+   }
+   .nav-pills .nav-link.active,
+.nav-pills .nav-item.show .nav-link {
+  color:#ff0;
+  background-color: #f00;
+  border-color: var(--bs-nav-tabs-link-active-border-color);
+}
+
+.nav-pills .nav-link.active:hover,
+.nav-pills .nav-item.show .nav-link:hover{
+     background: purple;
+}  */
+*{
+  box-sizing: border-box;
+  /* padding: 0 !important; */
+}
+header{
+  min-height: 100vh;
+  background: url(../images/bg.jpg) no-repeat top left/cover;
+}
+.blocks{
+  min-height: 150px;
+}
+.block{
+  height: 150px;
+}
+
+.fir{
+  height: 60px;
+  margin: auto;
+  width: 100px;
+  background: url(../images/images/top-icons_01.png) no-repeat center/80% 100%;
+}
+.sec{
+  height: 60px;
+  margin: auto;
+  width: 100px;
+  background: url(../images/images/top-icons_03.gif) no-repeat center/80% 100%;
+}
+.th{
+  height: 60px;
+  margin: auto;
+  width: 100px;
+  background: url(../images/images/top-icons_05.gif) no-repeat center/80% 100%;
+}
+.fort{
+  height: 60px;
+  width: 100px;
+  margin: auto;
+  background: url(../images/images/top-icons_07.gif) no-repeat center/80% 100%;
+}
+.fif{
+  height: 60px;
+  width: 100px;
+  margin: auto;
+  background: url(../images/images/top-icons_09.gif) no-repeat center/80% 100%;
+}
+
+section:first-of-type img{
+  width: 120px;
+}
+
+.abou1{
+  /* height: 90px; */
+  /* width: 100px; */
+  background: url(../images/images/about-pic2.jpg) no-repeat center/100% 100%;
+}
+.abou2{
+  /* height: 90px; */
+  /* width: 100px; */
+  background: url(../images/images/about-pic1.jpg) no-repeat center/100% 100%;
+}
+.abou3{
+  /* height: 90px; */
+  /* width: 100px; */
+  background: url(../images/images/about-pic3.jpg) no-repeat center/100% 100%;
+}
+
+
+section:nth-of-type(3){
+    /* height: 550px; */
+  min-height: 100vh;
+
+    background: url(../images/images/process-bg.jpg) no-repeat center/cover;
+}
+section:nth-of-type(3) .nth2{
+  min-height: 250px;
+  /* width: 90%; */
+  /* margin-block: 0 !important;
+  line-height: 0 !important; */
+  padding-block: 0 !important;
+}
+
+.bg1{
+  height: 250px;
+  width: 320px;
+  background: url(../images/images/p-bg1.jpg) no-repeat center/100% 100%;
+}
+.bg2{
+  width: 320px;
+  height: 250px;
+  background: url(../images/images/p-bg2.jpg) no-repeat center/100% 100%;
+}
+.bg3{
+  width: 320px; 
+   height: 250px;
+  background: url(../images/images/p-bg3.jpg) no-repeat center/100% 100%;
+}
+.bg4{
+  width: 320px;
+  height: 250px;
+  background: url(../images/images/p-bg4.jpg) no-repeat center/100% 100%;
+}
+
+
+section:nth-of-type(4){
+  min-height: 500px;
+}
+/* .item1{grid-area: item1;}
+.item2{grid-area: item2;}
+.item3{grid-area: item3;}
+.item4{grid-area: item4;}
+.grid-container{
+  min-height: 220px;
+  display: grid;
+  grid-template-areas: 
+  'item1 item2 item3'
+  'item4 item4 item3';
+} */
+
+
+.fift{
+  min-height: 100vh;
+}
+.fift .hdd{
+  min-height: 40px;
+}
+.fift .imgg{
+  min-height: 500px;
+}
+.fri2{
+  /* width: 250px; */
+  height: 200px;
+  background: url(../images/images/portpic1.jpg) no-repeat center/100% 100%;
+}
+.sec2{
+  /* width: 250px; */
+  height: 200px;
+  background: url(../images/images/portpic2.jpg) no-repeat center/100% 100%;
+}
+.thi2{
+  /* width: 250px; */
+  height: 200px;
+  background: url(../images/images/portpic3.jpg) no-repeat center/100% 100%;
+}
+.for2{
+  /* width: 250px; */
+  height: 200px;
+  background: url(../images/images/portpic4.jpg) no-repeat center/100% 100%;
+}
+.fif2{
+  /* width: 250px; */
+  height: 200px;
+  background: url(../images/images/portpic5.jpg) no-repeat center/100% 100%;
+}
+.six2{
+  /* width: 250px; */
+  height: 200px;
+  background: url(../images/images/portpic6.jpg) no-repeat center/100% 100%;
+}
+.sev2{
+  /* width: 250px; */
+  height: 200px;
+  background: url(../images/images/portpic7.jpg) no-repeat center/100% 100%;
+}
+.eig2{
+  /* width: 250px; */
+  height: 200px;
+  background: url(../images/images/portpic8.jpg) no-repeat center/100% 100%;
+}
+.nin2{
+  /* width: 250px; */
+  height: 200px;
+  background: url(../images/images/portpic9.jpg) no-repeat center/100% 100%;
+}
+
+
+
+section:nth-of-type(6){
+  min-height:40vh
+}
+section:nth-of-type(6) > div{
+  min-height: 90px;
+}
